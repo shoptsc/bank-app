@@ -5,12 +5,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+    <title>Sign In</title>
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/login.js" defer></script>
 </head>
 
 <body>
-    <h3>this is my login page</h3>
+    <div class="cont">
+        <div class="container">
+            <div class="top">
+                <div class="content">
+                    <h4>Welcome!</h4>
+                    <p>Sign in to continue</p>
+                </div>
+            </div>
+
+
+            <form class="form">
+                <div class="group">
+                    <label class="label">Email:</label>
+                    <input type="email" placeholder="dennymark@gmail.com" required>
+                </div>
+
+                <div class="group">
+                    <label class="label">Password:</label>
+                    <input type="password" placeholder="password" required>
+                </div>
+
+                <div class="forget"><a href="#">Forget Password?</a></div>
+                <div class="btn">
+                    <button id="btn">SIGN IN</button>
+                </div>
+                <p class="footer">New User? <a href="signup.html">Sign Up</a></p>
+            </form>
+        </div>
+    </div>
 </body>
 
 </html>

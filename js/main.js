@@ -1,8 +1,4 @@
-const btn = document.querySelector('#btn');
-
-btn.addEventListener('click', signin);
-
-function signin(e) {
-    e.preventDefault()
-    window.location.href = "signin.html"
+function load() {
+    window.location.replace("login.html")
 }
+setTimeout("load()", 3000)

@@ -1,4 +1,4 @@
 function load() {
-    window.location.replace("login.html")
+    window.location.replace("profile.html")
 }
 setTimeout("load()", 3000)
