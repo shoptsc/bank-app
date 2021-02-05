@@ -1,4 +1,5 @@
-// function load() {
-//     window.location.replace("signin.html")
-// }
-// setTimeout("load()", 5000)
+const btn = document.querySelector('#btn');
+
+btn.addEventListener('click', (signin) => {
+    window.location.href = "index.html"
+});
