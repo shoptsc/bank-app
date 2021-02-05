@@ -1,4 +1,4 @@
-// function load() {
-//     window.location.replace("signin.html")
-// }
-// setTimeout("load()", 5000)\
+function load() {
+    window.location.replace("login.html")
+}
+setTimeout("load()", 3000)
