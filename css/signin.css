@@ -78,6 +78,9 @@ img {
         height: 15%;
         border-radius: 360%;
         width: 8%;
-        left: 50%;
+        left: 49%;
+    }
+    .text {
+        left: 45%;
     }
 }
