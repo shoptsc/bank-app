@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: whitemoke;
+}
+
+.container {
+    background: rgba(241, 72, 11, 0.74);
+    width: 80%;
+    height: 100vh;
+    margin: 10px auto;
+    border-radius: 30px;
+}
+
+.img {
+    width: 50%;
+    margin: 20px 0;
+    height: 50vh;
+}
+
+img {
+    width: 100%;
+    margin: 50% 0;
+    position: relative;
+    animation-name: move;
+    animation-duration: 10s;
+}
+
+@keyframes move {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+    75% {
+        left: 0px;
+        top: 200px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}

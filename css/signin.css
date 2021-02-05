@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+}
+
+.container {
+    background: whitesmoke;
+    height: 90vh;
+    width: 60%;
+    border-radius: 30px;
+    margin: 20px auto;
+}
+
+.top {
+    background: #ff3e37;
+    height: 30vh;
+    border-radius: 20px 20px 45% 45%;
+    margin: auto;
+    width: 100%;
+}
+
+.img {
+    height: 30vh;
+    text-align: center;
+}
+
+img {
+    height: 10vh;
+    width: 20%;
+    border: 3px solid whitesmoke;
+    border-radius: 360%;
+    margin: 80px 40%;
+}
+
+.content {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content h4 {
+    font-size: 1.2rem;
+}
+
+.form {
+    text-align: center;
+}
+
+.input {
+    margin: 20px 0 0 0;
+}
+
+input {
+    margin: 5px 0;
+    height: 35px;
+    width: 80%;
+    border: 1px solid #ff3e37;
+    border-radius: 20px;
+    outline: none;
+    padding: 0 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #ff3e37;
+}
+
+.forget {
+    text-align: right;
+    padding: 0 20px;
+}
+
+button {
+    margin: 30px 0 60px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    background-color: #ff3e37;
+    color: whitesmoke;
+    outline: none;
+    border: none;
+}
+
+.footer {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 550px) {
+    .container {
+        width: 30%;
+    }
+    .top {
+        border-radius: 20px 20px 30% 30%;
+    }
+}
